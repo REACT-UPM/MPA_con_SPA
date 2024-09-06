@@ -16,8 +16,8 @@ const allEvenNumbers = allNumbers.every((number) => number % 2 === 0);
 console.log(allEvenNumbers); // Output: true
 
 // 4. Includes Method
-const fruits = ['Apple', 'Banana', 'Cherry', 'Date'];
-const hasBanana = fruits.includes('Banana');
+const fruits2 = ['Apple', 'Banana', 'Cherry', 'Date'];
+const hasBanana = fruits2.includes('Banana');
 console.log(hasBanana); // Output: true
 
 // 5. Map Method
