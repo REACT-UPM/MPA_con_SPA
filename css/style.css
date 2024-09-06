@@ -25,6 +25,10 @@
     background-color: #ddd;
 }
 
+#importante {
+    color: red;
+}
+
 /* Page styles */
 body {
     font-family: Arial, sans-serif;

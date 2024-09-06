@@ -7,7 +7,13 @@
     <script src="js/main.js"></script>
     <script src="js/destructuring.js"></script>
     <script src="js/arraymethods.js"></script>
-    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            console.log("DOM fully loaded and parsed");
+            document.getElementById("miparrafo").style.display = "none";
+        });
+       
+    </script>    
 </head>
 <body>
     <header>
@@ -25,7 +31,7 @@
     <main>
         <section>
             <h2>Ejemplos simples de JS puro</h2>
-            <p>Veamos algunos ejemplos.</p>
+            <p id="miparrafo">Veamos algunos ejemplos.</p>
             <img src="https://www.upm.es/themes/comun/logos/institucional.png" alt="UPM">
         </section>
     </main>
